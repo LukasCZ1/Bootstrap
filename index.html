@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/_custom.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img class="p-2" src="images/apple.png" width="40" alt="Aplle"/>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#adminModal">
+          Admin
+        </button>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- Modal -->
+<div class="modal fade" id="adminModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Admin section</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section class="welcome-info d-flex align-items-center">
+    <div class="container text-center p-5 text-light">
+      <div class="col">
+        <h1 class="text-center m-5">Explore Apple Products</h1>
+        <p>The most exciting technology ever</p>
+      </div>
+    </div>
+  </section>
+  <section>
+  <div class="container px-4 text-center">
+    <h2 class="text-center m-5 text-purple">Rent Our Products</h2>
+    <div class="row gx-5 gy-5">
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images/mobile.jpg"/>
+          <div class="card-body">
+            <h5 class="card-title">iPhone 14</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Rent</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images/mobile.jpg"/>
+          <div class="card-body">
+            <h5 class="card-title">iPhone 14</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Rent</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images/mobile.jpg"/>
+          <div class="card-body">
+            <h5 class="card-title">iPhone 14</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Rent</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <div class="container my-5" style="display: none">
+
+    <div class="row gx-5 text-center">
+      <div class="col-lg-4 col-md-12 p-0 card">
+        <div class="card-body">
+          <img src="images/mobile.jpg" width="300px"/>
+          <h5 class="card-title">iPhone 14</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Rent</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 p-0 card">
+        <div class="card-body">
+          <img src="images/mobile.jpg" width="300px"/>
+          <h5 class="card-title">iPhone 15</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Rent</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 p-0 card">
+        <div class="card-body">
+          <img src="images/mobile.jpg" width="300px"/>
+          <h5 class="card-title">iPhone 15</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Rent</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
