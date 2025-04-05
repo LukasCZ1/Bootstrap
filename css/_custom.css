@@ -16,3 +16,15 @@
 .text-purple{
     color: var(--text-purple);
 }
+@media only screen and (max-width: 765px){
+    .caraD{
+        border-bottom: 2px solid #bcbcbc;
+    }
+
+}
+@media only screen and (min-width: 765px){
+    .caraP{
+        border-right: 2px solid #bcbcbc;
+    }
+
+}
