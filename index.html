@@ -6,6 +6,7 @@
   <title>Bootstrap demo</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/_custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
 
   </style>
@@ -13,7 +14,7 @@
 
 <body>
 <header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-dark-emphasis">
     <div class="container-fluid">
       <img class="p-2" src="images/apple.png" width="40" alt="Aplle"/>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -35,7 +36,7 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#adminModal">
+        <button type="button" class="btn btn-1" data-bs-toggle="modal" data-bs-target="#adminModal">
           Admin
         </button>
       </div>
@@ -64,7 +65,7 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" class="btn btn-1">
             <a class="nav-link text-white" target="_blank" href="admin.html">Login</a>
           </button>
         </form>
@@ -77,7 +78,7 @@
   <section class="welcome-info d-flex align-items-center">
     <div class="container text-center p-5 text-light">
       <div class="col">
-        <h1 class="text-center m-5">Discover the World of Apple Innovation</h1>
+        <h1 class="text-center m-5 ">Discover the World of Apple Innovation</h1>
         <p>Apple products combine cutting-edge technology and design to make everyday life simpler, more efficient, and more enjoyable.</p>
       </div>
     </div>
@@ -93,7 +94,7 @@
           <div class="card-body">
             <h5 class="card-title">iPhone 16</h5>
             <p class="card-text">The iPhone 16 features a 6.1-inch OLED display, A18 chip, and a 48MP camera. It offers 5G support and up to 27 hours of video playback. With durable Ceramic Shield glass, it’s designed for high performance and longevity.</p>
-            <a href="#" class="btn btn-primary px-5 rounded-pill">Rent</a>
+            <a href="#" class="btn btn-1 px-5 rounded-pill">Rent</a>
           </div>
         </div>
       </div>
@@ -103,7 +104,7 @@
           <div class="card-body">
             <h5 class="card-title">iPhone 16e</h5>
             <p class="card-text">The iPhone 16e has a 6.1-inch OLED display, A18 chip, and a 48MP camera. It supports 5G and provides up to 26 hours of video playback. With Ceramic Shield glass, it’s a reliable choice at a more affordable price.</p>
-            <a href="#" class="btn btn-primary px-5 rounded-pill">Rent</a>
+            <a href="#" class="btn btn-1 px-5 rounded-pill">Rent</a>
           </div>
         </div>
       </div>
@@ -113,7 +114,7 @@
           <div class="card-body">
             <h5 class="card-title">AirPods</h5>
             <p class="card-text">The 3rd-gen AirPods deliver high-quality sound, spatial audio, and 6 hours of playback. They’re water and sweat-resistant (IPX4) and feature wireless charging, making them perfect for active users.</p>
-            <a href="#" class="btn btn-primary px-5 rounded-pill">Rent</a>
+            <a href="#" class="btn btn-1 px-5 rounded-pill">Rent</a>
           </div>
         </div>
       </div>
@@ -123,9 +124,9 @@
 
   <section>
   <div class="container py-5">
-    <div class="row pt-5 border p-3 rounded-5">
+    <div class="row pt-5 border border-2 border-black p-3 rounded-5">
       <!-- Reviews -->
-      <div id="review" class="col-12 col-md-6 mb-3 caraP caraD">
+      <div id="review" class="col-12 col-md-6 mb-3 cara">
         <h2 class="text-start mb-3">User Reviews</h2>
 
         <div class="review m-3 py-2">
@@ -149,27 +150,37 @@
         <h2 class="text-start mb-3">Contact Form</h2>
         <form>
           <div class="form-row">
-            <div class="col-md-6 m-3">
+            <div class="col-md-6 m-3 text-black">
               <label for="name">Name</label>
               <input type="text" class="form-control" id="name" placeholder="Your name" required>
             </div>
-            <div class="col-md-6 m-3">
+            <div class="col-md-6 m-3 text-black">
               <label for="email">Email</label>
               <input type="email" class="form-control" id="email" placeholder="Your email" required>
             </div>
           </div>
 
-          <div class="form-group m-3">
+          <div class="form-group m-3 text-black">
             <label for="message">Message</label>
             <textarea class="form-control" id="message" rows="4" placeholder="Write your message" required></textarea>
           </div>
 
-          <button type="submit" class="btn btn-primary px-5 rounded-3 m-3">Submit</button>
+          <button type="submit" class="btn btn-1 px-5 rounded-3 m-3">Submit</button>
         </form>
       </div>
     </div>
   </div>
   </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <a href="#" class="text-white mx-2 fs-5"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="text-white mx-2 fs-5"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="text-white mx-2 fs-5"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
 
 
 </main>
