@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Admin Panel</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/_custom.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/_custom.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -23,16 +23,31 @@
       </nav>
       <hr class="text-white">
       <div class="text-white">
-      <h2>Lukáš Vrtěl</h2>
+        <a class="nav-link" href="dashboard.html">
+        <h2>Lukáš Vrtěl</h2>
+        </a>
       </div>
     </div>
     <!-- content -->
     <div class="col-sm-8 col-md-9 col-lg-10 bg-light vh-100 p-4">
-      <h2>Dashboard</h2>
+      <div class="row">
+        <div class="col-md-5">
+          <h2>Personal information</h2>
+          <ul>
+            <li><strong>Name: </strong> Lukáš Vrtěl</li>
+            <li><strong>Email: </strong><a href="mailto:lukas.vrtel@spspzlin.cz">lukas.vrtel@spspzlin.cz</a></li>
+            <li><strong>Phone: </strong><a href="tel:+420703346115">+420 703 346 115</a></li>
+            <li><strong>Adress: </strong> Nad Ovčírnou IV 25828, 760 01, Zlin</li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2>Profile picture</h2>
+          <img class="rounded-circle" src="../images/panda.jpg" width="150"></div>
+      </div>
     </div>
   </div>
 </div>
-<script src="js/bootstrap.bundle.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
 
 </body>
 </html>
